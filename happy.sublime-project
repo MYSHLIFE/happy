@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Documents/Adobe"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Project/ebay/GitHub"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Project/infosys/对象"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Documents/Dev"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Ivan/Project/infosys"
+		}
+	]
+}

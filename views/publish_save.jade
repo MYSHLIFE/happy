@@ -1,0 +1,148 @@
+extends layout
+block content
+  .head
+    .row
+      .col-xs-3
+        a.activity_logo#activity_logo(href="#")
+          img.activity_logo_img#activity_logo_img(src="/assets/images/activity_logo_img.png")
+          img.activity_logo_le#activity_logo_le(src="/assets/images/activity_logo.png")
+      .col-xs-9
+        button.btn.btn-small.publish_save_btn 发 布
+       
+  div.activity_new.z_index(style="height:100px;margin-top:-50px")
+    //- span.span_button
+    p.activity_head_new 保存成功
+    p.activity_head_mood 还差一步，即将成功的举办了这次聚会了。小伙伴们在等着你！
+  fieldset
+    legend
+      span 选择私密等级
+  .publish_save_content
+    a.row.category_row(href="#",data-type="A")
+      .col-xs-2
+        input.category_radio(type="radio",name="category")
+      .col-xs-10
+        h3.font1
+          |公开
+        p.font2
+          |您的乐活将被公开发布，所有人可以查看您发布的内容。
+    a.row.category_row(href="#",data-type="B")
+      .col-xs-2
+        input.category_radio(type="radio",name="category")
+
+      .col-xs-10
+        h3.font1
+          i.fa.fa-eye-slash
+          |高私密
+        p.font2
+          |您的乐活发布后会获得一个唯一访问URL，它不会出现在新乐活网的公开页面（包括您的个人主页）只有您的朋友可以查看内容，别人没有查看该链接的权限。
+
+
+  fieldset.publish_save_contact_list.hidden
+    p.publish_save_contact_list_no.font2
+      |您还没有任何联系组或好友，本次乐活发布后将为您创建一个新的联系组，您可以进入“我的联系组”对联系组进行修改、删除操作。
+  .publish_save_contact_list_detail.hidden
+    .publish_save_contact
+      .row
+        .col-xs-1.font3
+          i.fa.fa-home
+        .col-xs-10
+          select#contact(name="contact",toggle,selectpicker,multiple,data-live-search="true",class="contact")
+            option(selected) 大学开心组
+            for i in ["高一五班同学组","初一二班","小学六班","盛大同事，卡拉OK活动"]
+              option #{i}
+            option.background_color_red 
+              ＋ 新建联系组
+
+    .publish_save_contact_detail.margin_15
+      .contact_detail_header.margin_15.activity_vote_a_date.center.line-height-2.font5 
+        p 高一五班同学组
+      //- .contact_detail_title.margin_15
+      //-   span.font2 当前联系组有他们 
+      .contact_detail_content
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+
+    .publish_save_contact_detail.margin_15
+      .contact_detail_header.margin_15.activity_vote_a_date.center.line-height-2.font5 
+        p 初一二班
+      //- .contact_detail_title.margin_15
+      //-   span.font2 当前联系组有他们 
+      .contact_detail_content
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+    .publish_save_contact_detail.margin_15
+      .contact_detail_header.margin_15.activity_vote_a_date.center.line-height-2.font5 
+        p 小学六班
+      //- .contact_detail_title.margin_15
+      //-   span.font2 当前联系组有他们 
+      .contact_detail_content
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+        .contact_img_group.width_15.float_left.margin_15
+          img.width_100(src="/assets/images/activity_new_1.png")
+          h3.center.font2 杜比比
+
+block page_script
+  link(rel="stylesheet" href="/assets/js/select/bootstrap-select.min.css" media="screen")
+  script(src='/assets/js/bb/lodash.min.js', type='text/javascript')
+  script(src='/assets/js/bb/backbone-min.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.sprintf.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.canvasResize.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.exif.js', type='text/javascript')
+  script(src='/assets/js/bb/handlebars-v2.0.0.js', type='text/javascript')
+  script(type="text/javascript" src="/assets/js/select/bootstrap-select.min.js")
+  script(type="text/javascript", src="/javascripts/happy.publish_save.js?v=20150411")

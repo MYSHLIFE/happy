@@ -1,0 +1,39 @@
+doctype
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    block title 
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(name='description', content='乐活派')
+    meta(name='author', content='Nick Ma')
+    meta(name="format-detection", content="telephone=no")
+    block metas
+    link(rel='shortcut icon', href='/img/favicon.png')
+    // BEGIN GLOBAL MANDATORY STYLES
+    link(href='/assets/base/bs3/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+    link(href='/assets/base/fa4/css/font-awesome.min.css?v=4.5', rel='stylesheet', type='text/css')
+    link(href='/assets/css/app.css', rel='stylesheet', type='text/css')
+    // END GLOBAL MANDATORY STYLES
+  // END HEAD
+  // BEGIN BODY
+
+  body
+    block header
+    block content
+    #fullscreen-overlay.fullscreen-overlay(style="display:none")
+    #fullscreen-overlay1.z_index_99.fullscreen-overlay.background_wheat(style="display:none")
+    #toast.text-center(style="top:30%;position:fixed;width:100%;display:none;z-index:11000")
+      i.fa.fa-spinner.fa-pulse(style="text-aling:center; font-size:3em;color:#ffffff")
+      br
+      small#toast_title(style="color:#ffffff") 加载中
+    span#toast_error_cancel.z_index_100.hidden.absolute.right_20.top_20.pointer.color_ccc.font3.fixed ×
+    #toast_error.text-center(style="top:30%;position:fixed;width:100%;display:none;z-index:11000")
+      p.font5 噢！ 出错了
+      p.font6#toast_error_title 无法加载页面啦，检查您的因特网链接。或者稍等一会再次访问。
+
+    // BEGIN CORE PLUGINS
+    script(src='/assets/base/jq/jquery-1.11.1.min.js', type='text/javascript')
+    script(src='/assets/base/bs3/js/bootstrap.min.js', type='text/javascript')
+    script(type="text/javascript", src="/javascripts/happy.base.js?v=20150323")
+    block page_script

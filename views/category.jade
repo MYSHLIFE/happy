@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  .head
+    .row
+      .col-xs-6
+        a.activity_logo#activity_logo2(href="#")
+          img.activity_logo_le#activity_logo_le2(src="/assets/images/activity_logo2.png")
+      .col-xs-6
+        a.activity_people_img#activity_people_img(href="#")
+          img.activity_people_img_le#activity_people_img_le(src="/assets/images/activity_new_1.png")
+  .content
+    a.row.category_row(href="#",data-type="A")
+      .col-xs-2
+        input.category_radio(type="radio",name="category")
+      .col-xs-10
+        h3.font1
+          |发表文章、摄影、图书作品、音乐作品
+        p.font2
+          |发表您的感悟、故事、干活、咨询、小说作品、摄影作品、音乐作品
+    a.row.category_row(href="#",data-type="B")
+      .col-xs-2
+        input.category_radio(type="radio",name="category")
+
+      .col-xs-10
+        h3.font1
+          |组织活动、发起投票
+        p.font2
+          |发起一个聚会、和朋友们去哪里吃饭？组织个群体出游，什么时间大家都有空？商业活动调查问卷结果怎么样？在这里可以帮你完成您的设想。
+
+    a.row.category_row(href="#",data-type="C")
+      .col-xs-2
+        input.category_radio(type="radio",name="category")
+
+      .col-xs-10
+        h3.font1
+          |活动中的共同分享
+        p.font2
+          |活动已经开始啦。这次活动你们怎么看；分享游玩中的图片、好段子；活动有什么变化通知和联络大家
+
+block page_script
+  script(type="text/javascript", src="/javascripts/happy.category.js?v=20150409")

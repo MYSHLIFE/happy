@@ -1,0 +1,309 @@
+extends layout
+//- extends header
+block header
+  .head
+    .row
+      .col-xs-2
+        a.activity_logo#activity_logo2(href="#")
+          img.activity_logo_le#activity_logo_le2(src="/assets/images/activity_logo2.png")
+      .col-xs-8.activity_a_tag
+        span.activity_a_span 发布新乐活
+        button.btn.btn-small.activity_a_success.activity_b_save 保存
+        button.btn.btn-small.activity_a_cancel.activity_b_delete 
+          i.fa.fa-times(style="color:gray")
+      .col-xs-2
+        a.activity_people_img#activity_people_img(href="#")
+          img.activity_people_img_le#activity_people_img_le(src="/assets/images/activity_new_1.png")
+
+block content
+  #fullscreen-overlay.fullscreen-overlay(style="display:none")
+  //- div.publish_date_range
+    .publish_span_left
+      span.publish_activity_span.color_red 
+         |聚会活动有效期：
+      span
+         |默认有效期为5 天，您也可以编辑有效期限
+    .publish_button_right
+      button.publish_date_select(type="button")
+        i.fa.fa-calendar
+  div.publish_img#publish_img
+    div.button_p
+      p.add_photo  +
+      p  增加一张美图
+      .hiddenfile
+        form(id="frmUploadPic", method="post", action="/gridfs/put", enctype="multipart/form-data", data-ajax="false")
+          input#file4upload(type="file", data-clear-btn="false", name="qqfile", accept="image/*", capture)
+
+  div#editor
+    //- h1.editor_head 输入你的标题
+    //- h3.editor_mood 写下你的文字
+  .activity_button
+    .row
+      .col-xs-12(style="margin-top:12px")
+        i.fa.fa-plus-circle.float_left.margin_top_2
+        h3.activity_h3.float_left.margin_left_2 我想增加一个
+    .button_group
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="A") 
+          i.fa.fa-trophy
+            |聚会活动
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="B") 
+          i.fa.fa-glass
+            |一起吃饭
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="C") 
+          i.fa.fa-car
+            |组织出游
+    .button_group
+      .col-xs-3
+        button.btn.btn-small.activity_a_btn(type="button",data-type="D") 
+          i.fa.fa-angellist
+            |投票
+  .activity_content_A.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |聚会活动
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="A")
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-microphone 
+              | 聚会活动
+          .line3
+
+        li
+          textarea.textarea_vote_style.line-height-1.border_no.font2
+            |你的关于 聚会活动 的标题
+          .line2
+
+        li
+          p
+            i.fa.fa-clock-o.margin_right_10
+            span 聚会时间
+            button.btn.btn-small.activity_a_success.activity_vote_a.float_right(style="margin-top:-8px",type="button",data-type="A") 投 票
+          .line2
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 聚会时间投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="A")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="A")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="聚会时间1")
+          input.activity_vote_a_date(type="text",placeholder="聚会时间2")
+          .line2.clear_both          
+
+        li
+          p
+            i.fa.fa-home.margin_right_10
+            span 聚会地点
+            button.btn.btn-small.activity_a_success.activity_vote_b.float_right(style="margin-top:-8px",type="button",data-type="A") 投 票
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 聚会地点投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="A")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="A")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="聚会地点1")
+          input.activity_vote_a_date(type="text",placeholder="聚会地点2")
+          .line2.clear_both          
+
+  .activity_content_B.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |组织吃饭
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="B")
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-microphone 
+              | 组织吃饭
+          .line3
+
+        li
+          textarea.textarea_vote_style.line-height-1.border_no.font2
+            |你的关于 组织吃饭 的标题
+          .line2
+
+        li
+          p
+            i.fa.fa-clock-o.margin_right_10
+            span 吃饭时间
+            button.btn.btn-small.activity_a_success.activity_vote_a.float_right(style="margin-top:-8px",type="button",data-type="B") 投 票
+          .line2
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 吃饭时间投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="B")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="B")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="吃饭时间1")
+          input.activity_vote_a_date(type="text",placeholder="吃饭时间2")
+          .line2.clear_both          
+
+        li
+          p
+            i.fa.fa-home.margin_right_10
+            span 吃饭地点
+            button.btn.btn-small.activity_a_success.activity_vote_b.float_right(style="margin-top:-8px",type="button",data-type="B") 投 票
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 吃饭地点投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="B")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="B")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="吃饭地点1")
+          input.activity_vote_a_date(type="text",placeholder="吃饭地点2")
+          .line2.clear_both          
+
+  .activity_content_C.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |组织出游
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="C")
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-microphone 
+              | 组织出游
+          .line3
+
+        li
+          textarea.textarea_vote_style.line-height-1.border_no.font2
+            |你的关于 组织出游 的标题
+          .line2
+
+        li
+          p
+            i.fa.fa-clock-o.margin_right_10
+            span 出游时间
+            button.btn.btn-small.activity_a_success.activity_vote_a.float_right(style="margin-top:-8px",type="button",data-type="C") 投 票
+          .line2
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 出游时间投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="C")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="C")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="出游时间1")
+          input.activity_vote_a_date(type="text",placeholder="出游时间2")
+          .line2.clear_both          
+        li
+          p
+            i.fa.fa-home.margin_right_10
+            span 出游地点
+            button.btn.btn-small.activity_a_success.activity_vote_b.float_right(style="margin-top:-8px",type="button",data-type="C") 投 票
+          .line2
+        li.hidden
+          span.opacity_8.font4.margin_left_40.line-height-3
+            i.fa.fa-microphone 
+              | 出游地点投票
+          button.btn.btn-small.activity_a_cancel.activity_vote_delete.float_right.background_color_red_rgb.margin_right_10(type="button",data-type="C")
+            i.fa.fa-minus(style="color:white")
+          button.btn.btn-small.activity_a_cancel.activity_vote_add.float_right.background_color_red.margin_left_40(type="button",data-type="C")
+             i.fa.fa-plus(style="color:white")
+          .line4
+          textarea.textarea_vote_style.line-height-1.border_no.font2.line-height-3(style="margin-left:45px !important;")
+            |你的关于 投票 的标题
+          input.activity_vote_a_date(type="text",placeholder="出游地点1")
+          input.activity_vote_a_date(type="text",placeholder="出游地点2")
+          .line2.clear_both          
+
+  .activity_content_D.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |投票
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="D")
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li(style="margin:10px")
+          span.opacity_5
+            i.fa.fa-angellist 
+              | 投票
+          button.btn.btn-small.activity_a_cancel.float_right.activity_vote_add.background_color_red(type="button",data-type="C")
+             i.fa.fa-plus(style="color:white")
+
+          .line3(style="margin-top:25px")
+
+        li
+          textarea.textarea_vote_style.line-height-1.border_no.font2
+            |你的关于 投票 的标题
+          .line2
+
+        li.vote_content
+          p
+            textarea.line-height-1.border_no.input_change(type="text",placeholder="投票内容")
+            button.btn.btn-small.activity_a_cancel.float_right.activity_vote_delete.background_color_red_rgb(type="button",data-type="C")
+              i.fa.fa-times(style="color:white")
+
+
+
+block page_script
+  link(href='/assets/js/pen/pen.css', rel='stylesheet', type='text/css')
+  link(href='/assets/js/dante/dante_editor.css', rel='stylesheet', type='text/css')
+  script(type="text/javascript", src="/assets/js/pen/pen.js")
+  script(type="text/javascript", src="/assets/js/pen/markdown.js")
+  script(type="text/javascript", src="/assets/js/dante/dante_editor.js")
+  script(type="text/javascript", src="/assets/thirdjs/deps.js")
+  script(src='/assets/js/bb/lodash.min.js', type='text/javascript')
+  script(src='/assets/js/bb/backbone-min.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.sprintf.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.canvasResize.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.exif.js', type='text/javascript')
+  script(src='/assets/js/bb/handlebars-v2.0.0.js', type='text/javascript')
+  //百度地图
+  script(type="text/javascript", src="http://api.map.baidu.com/api?type=quick&v=1.0&ak=YPU419vVqSq12Ndj3496LoZC")
+
+  script(type="text/javascript", src="/javascripts/happy.activity.publish_b.js?v=20150325")

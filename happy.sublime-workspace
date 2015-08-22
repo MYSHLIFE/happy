@@ -1,0 +1,2592 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"toast_err",
+				"toast_error_cancel"
+			],
+			[
+				"z",
+				"z-index_100"
+			],
+			[
+				"mar",
+				"margin_left_30"
+			],
+			[
+				"btn",
+				"btn-small"
+			],
+			[
+				"he",
+				"height_min_120"
+			],
+			[
+				"ma",
+				"margin_top_50"
+			],
+			[
+				"comm",
+				"comment_left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ac",
+				"activity_a_success"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"font",
+				"font2"
+			],
+			[
+				"fon",
+				"font5"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"CON",
+				"contact_manage"
+			],
+			[
+				"next",
+				"nextAll	.nextAll()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"col",
+				"col-xs-2"
+			],
+			[
+				"conta",
+				"contact_detail_header"
+			],
+			[
+				"activi",
+				"activity_vote_b"
+			],
+			[
+				"lin",
+				"line-height-3"
+			],
+			[
+				"margi",
+				"margin_right_10"
+			],
+			[
+				"line",
+				"line-height-1"
+			],
+			[
+				"pub",
+				"publish_date_range"
+			],
+			[
+				"l",
+				"line-height-1"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"xs",
+				"col-xs-2"
+			],
+			[
+				"butt",
+				"button_group"
+			],
+			[
+				"col-x",
+				"col-xs-10"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"fa-",
+				"fa-camera"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"a",
+				"activity_a_success"
+			],
+			[
+				"co",
+				"col-xs-8"
+			],
+			[
+				"no",
+				"no_focus"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"aci",
+				"activity_head_mood"
+			],
+			[
+				"img_",
+				"img_num"
+			],
+			[
+				"java",
+				"javascripts"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"da",
+				"dante_editor"
+			],
+			[
+				"filter_",
+				"filter_work_plan"
+			],
+			[
+				"time_zon",
+				"time_zone_s"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"absence_ti",
+				"absence_time_num"
+			],
+			[
+				"time_zo",
+				"time_zone_e"
+			],
+			[
+				"touser_wx",
+				"touser_wx_o"
+			],
+			[
+				"touser_im",
+				"touser_im_o"
+			],
+			[
+				"touser_w",
+				"touser_wx_o"
+			],
+			[
+				"card_inf",
+				"card_inform"
+			],
+			[
+				"gisi",
+				"gisi20122018"
+			],
+			[
+				"filter_da",
+				"filter_calendar_data"
+			],
+			[
+				"filter_wf",
+				"filter_wf_absence"
+			],
+			[
+				"is_inf",
+				"is_inform"
+			],
+			[
+				"is_info",
+				"is_inform"
+			],
+			[
+				"PeopleC",
+				"PeopleCardInform"
+			],
+			[
+				"card_op",
+				"card_op_i"
+			],
+			[
+				"YYYY",
+				"YYYY-MM-DD"
+			],
+			[
+				"GISI",
+				"gisiclouds"
+			],
+			[
+				"leave",
+				"leave_time"
+			],
+			[
+				"people",
+				"people_name"
+			],
+			[
+				"th",
+				"thead"
+			],
+			[
+				"common_in",
+				"common_instance"
+			],
+			[
+				"select_pe",
+				"select_people_ou_rank"
+			],
+			[
+				"select_",
+				"select_people_ou_rank"
+			],
+			[
+				"rank_nu",
+				"rank_num_obj"
+			],
+			[
+				"con",
+				"control-group"
+			],
+			[
+				"for",
+				"form-row"
+			],
+			[
+				"rank_ob",
+				"rank_obj_company"
+			],
+			[
+				"report_list",
+				"report_list_view"
+			],
+			[
+				"free_ins",
+				"free_instance_ou"
+			],
+			[
+				"is_de",
+				"is_delay_free"
+			],
+			[
+				"no_de",
+				"no_delay_common"
+			],
+			[
+				"report_lis",
+				"report_list_all_view"
+			],
+			[
+				"repor",
+				"report_list_view"
+			],
+			[
+				"series_",
+				"series_data_columns"
+			],
+			[
+				"categories",
+				"categories_data"
+			],
+			[
+				"process_num",
+				"process_num_arr_sort"
+			],
+			[
+				"process_ran",
+				"process_rank_num"
+			],
+			[
+				"process_fre",
+				"process_free_count"
+			],
+			[
+				"process_com",
+				"process_common_count2"
+			],
+			[
+				"process_comm",
+				"process_common_count"
+			],
+			[
+				"payroll_s",
+				"payroll_stop_date"
+			],
+			[
+				"vehicl",
+				"vehicle_back"
+			],
+			[
+				"vehi",
+				"vehicle_go"
+			],
+			[
+				"vehic",
+				"vehicle_back"
+			],
+			[
+				"vehicle",
+				"vehicle_go"
+			],
+			[
+				"ve",
+				"vehicle_back"
+			],
+			[
+				"vei",
+				"vehicle_go"
+			],
+			[
+				"veh",
+				"vehicle_go"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"col-xs",
+				"col-xs-4"
+			],
+			[
+				"qt_3",
+				"qt_360_collection"
+			],
+			[
+				"bt",
+				"btn-group"
+			],
+			[
+				"qt_ma",
+				"qt_manage_list"
+			],
+			[
+				"color",
+				"color_blue"
+			],
+			[
+				"date_per",
+				"date_period_all"
+			],
+			[
+				"qt_m",
+				"qt_manage_view"
+			],
+			[
+				"login_p",
+				"login_people"
+			],
+			[
+				"cl-x",
+				"col-xs-1"
+			],
+			[
+				"btn-",
+				"btn-info"
+			],
+			[
+				"argument",
+				"arguments"
+			],
+			[
+				"scm_p",
+				"scm_people_allow"
+			],
+			[
+				"scm_pe",
+				"scm_people_allow"
+			],
+			[
+				"lab",
+				"label_border"
+			],
+			[
+				"LABE",
+				"label_border"
+			],
+			[
+				"city",
+				"city_name"
+			],
+			[
+				"province",
+				"province_name"
+			],
+			[
+				"comp",
+				"company_name"
+			],
+			[
+				"treeScm",
+				"treeScmAllowed"
+			],
+			[
+				"scm_",
+				"scm_people_allowed"
+			],
+			[
+				"self_o",
+				"self_ou_sort"
+			],
+			[
+				"self_ou",
+				"self_ou_one"
+			],
+			[
+				"render_",
+				"render_type"
+			],
+			[
+				"peop",
+				"people_no"
+			],
+			[
+				"peo",
+				"people_keys"
+			],
+			[
+				"pep",
+				"people_keys"
+			],
+			[
+				"scr",
+				"scrollLeft	.scrollLeft()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/assets/css/app.css",
+			"settings":
+			{
+				"buffer_size": 17879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/happy.base.js",
+			"settings":
+			{
+				"buffer_size": 22044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/index.html",
+			"settings":
+			{
+				"buffer_size": 14595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/README.md",
+			"settings":
+			{
+				"buffer_size": 4473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/bootstrap-wysiwyg.js",
+			"settings":
+			{
+				"buffer_size": 6456,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/publish.jade",
+			"settings":
+			{
+				"buffer_size": 4396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/happy.activity.publish.js",
+			"settings":
+			{
+				"buffer_size": 13641,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"java",
+				"Javascript Beautify"
+			],
+			[
+				"package con",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"format:javascript",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"git deff",
+				"Git: Diff Current File"
+			],
+			[
+				"pacc",
+				"Package Control: Install Package"
+			],
+			[
+				"git:diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git:dif",
+				"Git: Diff Current File"
+			],
+			[
+				"git:idf",
+				"Git: Diff Current File"
+			],
+			[
+				"svn di",
+				"SVN: (File) Diff"
+			],
+			[
+				"svnadd",
+				"SVN: (File) Add"
+			],
+			[
+				"svn add",
+				"SVN: (File) Add"
+			],
+			[
+				"svna",
+				"SVN: (File) Add"
+			],
+			[
+				"svn ad",
+				"SVN: (File) Add"
+			],
+			[
+				"svn:ad",
+				"SVN: (File) Add"
+			],
+			[
+				"svn:",
+				"SVN: Status"
+			],
+			[
+				"svn :di",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn:lo",
+				"SVN: Log"
+			],
+			[
+				"svn:l",
+				"SVN: Log"
+			],
+			[
+				"git hi",
+				"Git: Commit history"
+			],
+			[
+				"Cta",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"cta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"code",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"unfo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"co",
+				"Git: Commit history"
+			],
+			[
+				"clip",
+				"Clipboard Manager: Show History"
+			],
+			[
+				"cli",
+				"Clipboard Manager: Previous & Paste"
+			],
+			[
+				"git",
+				"Github: Repository"
+			],
+			[
+				"git com",
+				"Git: Commit history"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"l",
+				"SVN: Log"
+			],
+			[
+				"PA",
+				"Package Control: Install Package"
+			],
+			[
+				"git:s",
+				"Git: Show Tags"
+			],
+			[
+				"git:",
+				"Git: Change Branch"
+			],
+			[
+				"git:ch",
+				"Git: Commit history"
+			],
+			[
+				"git:br",
+				"Git: Change Branch"
+			],
+			[
+				"git clo",
+				"Git: Update Project Ignored Files"
+			],
+			[
+				"svn set",
+				"Preferences: SVN Settings"
+			],
+			[
+				"sv",
+				"SVN: Checkout…"
+			],
+			[
+				"svn",
+				"SVN: Checkout…"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"brw",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 744.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"svn log -v -l 20",
+			"/ls",
+			"\\ls",
+			"ls",
+			":ls",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Ivan/Project/infosys/happy",
+		"/Users/Ivan/Project/infosys/happy/bower_components",
+		"/Users/Ivan/Project/infosys/happy/client/assets",
+		"/Users/Ivan/Project/infosys/happy/client/assets/thirdjs",
+		"/Users/Ivan/Project/ebay/GitHub",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com/ebay",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com/ebay/uvc",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com/ebya",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com/ebya/tree",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/src/com/ebya/tree/reportVO",
+		"/Users/Ivan/Project/infosys",
+		"/Users/Ivan/Project/infosys/bootstrap-wysiwyg",
+		"/Users/Ivan/Project/infosys/bootstrap-wysiwyg/external",
+		"/Users/Ivan/Project/infosys/bootstrap-wysiwyg/external/google-code-prettify"
+	],
+	"file_history":
+	[
+		"/Users/Ivan/Documents/Dev/gisiclouds/android/zzz/res/layout/activity_public_groups.xml",
+		"/Users/Ivan/Project/infosys/happy/routes/activity_new.js",
+		"/Users/Ivan/Project/infosys/happy/routes/activity.js",
+		"/Users/Ivan/Documents/Dev/Interest/webkit-master/LayoutTests/accessibility/aria-checkbox-text.html",
+		"/Users/Ivan/Documents/Dev/Interest/node-master/android-configure",
+		"/Users/Ivan/Documents/Dev/NodeJS/jquery-mobile/demos/tabs/ajax-content-ignore.php",
+		"/Users/Ivan/Documents/Dev/Interest/webkit-master/ManualTests/compositing/accel-comp-iframe-tab-repaint.html",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/node_modules/icalendar/lib/base.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/wxapp/base.jade",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/css/base.css",
+		"/Users/Ivan/Documents/Dev/Interest/linux-master/arch/sparc/net/bpf_jit_asm.S",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/js/plugins/datatables/unit_testing/tests_onhold/1_dom/bAutoWidth.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/bower.json",
+		"/Users/Ivan/Project/infosys/happy/views/layout.jade",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.base.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.publish_b_edit.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.regist.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/header_admin.jade",
+		"/Users/Ivan/Project/infosys/happy/views/publish_b.jade",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.publish_b.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.publish.js",
+		"/Users/Ivan/Project/infosys/happy/views/index.jade",
+		"/Users/Ivan/Project/infosys/happy/views/publish.jade",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/protractor/spec/plugins/plugins/async_plugin.js",
+		"/Users/Ivan/Project/infosys/happy/process.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/user/profile_user.jade",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/css/public.css",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/blog.html",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/js/bootstrap-affix.js",
+		"/Users/Ivan/Project/infosys/happy/views/publish_b_edit.jade",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.publish_a_edit.js",
+		"/Users/Ivan/Project/infosys/happy/client/assets/js/dante/dante_editor.js",
+		"/Users/Ivan/Project/infosys/happy/views/publish_a_edit.jade",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/dl_android.jade",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/dfiles.json",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.contact.js",
+		"/Users/Ivan/Project/infosys/happy/client/assets/css/app.css",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.category.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.index.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity_new.publish.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.publish_c.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/admin/tm/cardrecord/list.jade",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs/admin.clock_2d.form.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs/admin.role_client.bbform.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs/admin.ddic_copy.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes/admin.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/node_modules/wechat-enterprise-api/lib/api_department.js",
+		"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/node_modules/connect-mongo/node_modules/lodash/internal/charAtCallback.js",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/agent-config.txt",
+		"/Users/Ivan/Project/infosys/happy/views/contact.jade",
+		"/Users/Ivan/Project/infosys/happy/views/publish_save.jade",
+		"/Users/Ivan/Project/infosys/happy/views/login.jade",
+		"/Users/Ivan/Project/infosys/happy/node_modules/debug/debug.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.login.js",
+		"/Users/Ivan/Project/infosys/happy/client/assets/js/dante/dante_editor.css",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/javascript/deviceActivity.js",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/javascript/wbrfunnel.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-ui-component/node_modules/grunt-contrib-concat/node_modules/source-map/build/prefix-utils.jsm",
+		"/Users/Ivan/Project/infosys/happy/node_modules/express/lib/response.js",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/WEB-INF/resource-servlet.xml",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/bower_components/bootstrap/less/responsive-embed.less",
+		"/Users/Ivan/Project/infosys/happy/node_modules/express/lib/request.js",
+		"/Users/Ivan/Project/infosys/happy/views/regist.jade",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/demo/js/demo.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/demo/data.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/phd/js/phd.controllers.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.publish_save.js",
+		"/Users/Ivan/Project/infosys/happy/happy.sublime-project",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/mynous/index-old.html",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/protractor/scripts/interactive_tests/with_base_url.js",
+		"/Users/Ivan/Project/infosys/happy/bin/www",
+		"/Users/Ivan/Project/infosys/happy/views/category.jade",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/bower_components/oclazyload/examples/example1/js/AppCtrl.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.activity.upload.js",
+		"/Users/Ivan/Project/infosys/happy/app.js",
+		"/Users/Ivan/Project/infosys/happy/views/header.jade",
+		"/Users/Ivan/Project/infosys/happy/views/activity_new.jade",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/index.html",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/config/dev_js.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/package.json",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/css/demo-files/demo.js",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/Dashboard_files/demo.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-ui-component/app/src/deepDive/deepDive.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-ui-component/app/src/deepDive/deepDiveDemoService.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/js/userguide_mstxn.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/home.html",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/js/nous-index.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/Gruntfile.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/js/nous/dimension_service.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/eBay3dot0/shared/bin/target/surefire-reports/TEST-com.ebay.bis.ebay3dot0.shared.CommonFunctionsTest.xml",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/eBay3dot0/ebay30web/src/main/webapp/js/plugins/jquery-syntaxhighlighter-master/prettify/prettify.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/config/index.html.tpl",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/cas/js/casmonitor.js",
+		"/Users/Ivan/Project/ebay/GitHub/DNA_Explorer/WebContent/nousfile/js/in.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/node_modules/http-server/bin/http-server",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/bower_components/nous-ui-component/app/dist/nous-ui-component.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/cas/js/collection.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/phd/js/phd_service.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/js/global_variable.js",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/config/global_variable.js.tpl",
+		"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/bower_components/intro.js/themes/introjs-nassim.css",
+		"/Users/Ivan/Project/infosys/happy/routes/index.js",
+		"/Users/Ivan/Project/infosys/happy/views/favorite.jade",
+		"/Users/Ivan/Project/infosys/happy/routes/personal.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/express/node_modules/accepts/index.js",
+		"/Users/Ivan/Project/infosys/happy/public/javascripts/happy.favorite.publish.js",
+		"/Users/Ivan/Project/infosys/happy/client/assets/base/bs3/css/app.css",
+		"/Users/Ivan/Documents/Adobe/EdgeReflowProject/assets/Project_Previewer.html",
+		"/Users/Ivan/Project/infosys/happy/node_modules/express/lib/application.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/debug/Makefile",
+		"/Users/Ivan/Project/infosys/happy/node_modules/jade/node_modules/monocle/monocle.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/lib/output.js",
+		"/Users/Ivan/Project/infosys/happy/package.json",
+		"/Users/Ivan/Project/infosys/happy/routes/favorite.js",
+		"/Users/Ivan/zhisiyun/app.js",
+		"/Users/Ivan/Project/infosys/happy/views/upload_pic.jade",
+		"/Users/Ivan/Project/infosys/happy/routes/upload_pic.js",
+		"/Users/Ivan/Project/infosys/happy/client/assets/thirdjs/deps.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/underscore/package.json",
+		"/Users/Ivan/Project/infosys/happy/routes/users.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/yargs/example/xup.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/yargs/example/requires_arg.js",
+		"/Users/Ivan/Project/infosys/happy/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm",
+		"/Users/Ivan/zhisiyun/client/assets/new_base/bs3/css/app.css",
+		"/Users/Ivan/zhisiyun/routes/qywx/app_001.js",
+		"/Users/Ivan/others/attend_pay.js",
+		"/Users/Ivan/zhisiyun/clis/attendance.js",
+		"/Users/Ivan/zhisiyun/views/mobile/template_mobileresource.jade"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Ivan/Project/infosys/happy/public/javascripts",
+			"/Users/Ivan/Project/infosys/happy/views",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app/phd/js",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/eBay3dot0",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend/app",
+			"/Users/Ivan/Project/ebay/GitHub/BIS/nous-frontend",
+			"/Users/Ivan/zhisiyun/views",
+			"/Users/Ivan/zhisiyun/views/wxapp",
+			"/Users/Ivan/zhisiyun/public/pagejs",
+			"/Users/Ivan/zhisiyun/public",
+			"/Users/Ivan/zhisiyun",
+			"/Users/Ivan/zhisiyun/routes/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/wxapp/002",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/quesetionnaire",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/questionnair_template",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/node_modules/wechat-enterprise-api",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/node_modules/wechat-enterprise",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/schemas",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/schemas",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/schemas",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/assessment",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/talent",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/tm_attendance",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/models",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views",
+			"<project>",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/skill_recommend",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/public/pagejs",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes/admin",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/schemas",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/routes",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/routers",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/client/m/views/tm_attendance",
+			"/Users/Ivan/Documents/Dev/gisiclouds/gisiclouds/views/mobile"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"options",
+			"userOptions",
+			"editor",
+			"contaioner",
+			"editor",
+			"toast_err",
+			"error",
+			"css_font",
+			"css_color",
+			"#CCCCCC",
+			"color",
+			"z_index_100",
+			"z_index_99",
+			"z_index_100",
+			"z_index",
+			"css_position",
+			"absolute",
+			"position_absolute",
+			"z_index",
+			"css_background",
+			"toast_err",
+			"toast_title",
+			"toast",
+			"font2",
+			"col-xs-4",
+			"css_color",
+			"color",
+			"css_font",
+			"public",
+			"activity_new_1",
+			"css_padding",
+			"padding",
+			"margin_5",
+			"css_margin",
+			"width_100",
+			"margin_15",
+			"width_15",
+			"        h3.center.font2 杜比比\n",
+			"contact_img_group",
+			"width_100",
+			"margin_top_50",
+			"margin_top_20",
+			"margin_top_10",
+			"font1",
+			"font3",
+			"margin_top_30",
+			"css_display",
+			"css_top",
+			"position",
+			"css_right",
+			"Tell",
+			"css_height",
+			"css_margin",
+			"margin_top_50_n",
+			"90",
+			"180",
+			"margin_top_50",
+			"margin_top",
+			"margin_top_50_n",
+			"clear",
+			"css_display",
+			"css_margin",
+			"css_width",
+			"css_background",
+			"background",
+			"223",
+			"font-size",
+			"css_font",
+			"css_margin",
+			"font-size",
+			"css_font",
+			"css_margin",
+			"content_detail",
+			"font",
+			"css_margin",
+			"css_color",
+			"text-align",
+			".left",
+			"activity_people_img_le",
+			"padding",
+			"css_button",
+			"color",
+			"css_color",
+			"width",
+			"background-color",
+			"border",
+			"css_width",
+			"font",
+			"margin",
+			"css_margin",
+			"line",
+			"line_height",
+			"width",
+			"background",
+			"margin_",
+			"margin_10",
+			"img",
+			"button",
+			"activity_new_content",
+			"li",
+			"z_index",
+			"x",
+			"activity_a_btn",
+			"background_color",
+			"background",
+			"activity_a_btn",
+			"hover",
+			"border",
+			"background",
+			"font-size",
+			"line-height-2",
+			"line",
+			"float_left",
+			"center",
+			"displayAsImage3",
+			"trigger",
+			"publish_img",
+			"displayAsImage3",
+			"containerid",
+			"container",
+			"img",
+			"img_id",
+			"preview_img",
+			"activity_a_save",
+			"editor_mood",
+			"inlineTooltip",
+			"title",
+			"getTitle"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/assets/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14115,
+								13998
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 814,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 9.0,
+						"translation.y": 13458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1837,
+								1837
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 38,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/javascripts/happy.base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1605,
+								1605
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 51,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1454,
+								1454
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 18,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3546,
+								3546
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 88,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1045.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/Ivan/Project/infosys/bootstrap-wysiwyg/bootstrap-wysiwyg.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5776,
+								5776
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 178,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 10.0,
+						"translation.y": 205.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/publish.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4304,
+								4304
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 125,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1256.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/javascripts/happy.activity.publish.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								637
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": 18,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4256.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clipboard_manager":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 344.0
+	},
+	"project": "happy.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"happy.activity.publish.js",
+				"happy/public/javascripts/happy.activity.publish.js"
+			],
+			[
+				"happybedit",
+				"happy/public/javascripts/happy.activity.publish_b_edit.js"
+			],
+			[
+				"happybase",
+				"happy/public/javascripts/happy.base.js"
+			],
+			[
+				"app.css",
+				"happy/client/assets/css/app.css"
+			],
+			[
+				"happyactivitypubl",
+				"happy/public/javascripts/happy.activity.publish.js"
+			],
+			[
+				"happy.activity.publish_b.j",
+				"happy/public/javascripts/happy.activity.publish_b.js"
+			],
+			[
+				"happy.activity.publish_a_edit.j",
+				"happy/public/javascripts/happy.activity.publish_a_edit.js"
+			],
+			[
+				"dante",
+				"happy/client/assets/js/dante/dante_editor.js"
+			],
+			[
+				"happy.activity.publish_b_edit.j",
+				"happy/public/javascripts/happy.activity.publish_b_edit.js"
+			],
+			[
+				"happy.cont",
+				"happy/public/javascripts/happy.contact.js"
+			],
+			[
+				"happy",
+				"happy/public/javascripts/happy.base.js"
+			],
+			[
+				"happyba",
+				"happy/public/javascripts/happy.base.js"
+			],
+			[
+				"admin.clock_2d",
+				"gisiclouds/public/pagejs/admin.clock_2d.form.js"
+			],
+			[
+				"activitypubli",
+				"happy/public/javascripts/happy.activity.publish_b.js"
+			],
+			[
+				"dmin.clock_2d.form.js",
+				"gisiclouds/public/pagejs/admin.clock_2d.form.js"
+			],
+			[
+				"happbase",
+				"happy/public/javascripts/happy.base.js"
+			],
+			[
+				"appy.contact.js",
+				"happy/public/javascripts/happy.contact.js"
+			],
+			[
+				"appy.activity.publish.j",
+				"happy/public/javascripts/happy.activity.publish.js"
+			],
+			[
+				"wbr",
+				"GitHub/DNA_Explorer/WebContent/javascript/wbrfunnel.js"
+			],
+			[
+				"happy.login.js",
+				"happy/public/javascripts/happy.login.js"
+			],
+			[
+				"happyca",
+				"happy/public/javascripts/happy.category.js"
+			],
+			[
+				"happy.pu",
+				"happy/public/javascripts/happy.publish_save.js"
+			],
+			[
+				"wbrfunnel.js",
+				"GitHub/DNA_Explorer/WebContent/javascript/wbrfunnel.js"
+			],
+			[
+				"happy.category.js",
+				"happy/public/javascripts/happy.category.js"
+			],
+			[
+				"happ.ac",
+				"happy/public/javascripts/happy.activity.publish_b.js"
+			],
+			[
+				"happy.ac",
+				"happy/public/javascripts/happy.activity_new.publish.js"
+			],
+			[
+				"happy.activity.publish_b.",
+				"happy/public/javascripts/happy.activity.publish_b.js"
+			],
+			[
+				"pro",
+				"happy/process.js"
+			],
+			[
+				"/happy.index.j",
+				"happy/public/javascripts/happy.index.js"
+			],
+			[
+				"/demo.js",
+				"GitHub/BIS/nous-frontend/app/demo/js/demo.js"
+			],
+			[
+				"deepdive.js",
+				"GitHub/BIS/nous-ui-component/app/src/deepDive/deepDive.js"
+			],
+			[
+				"deepdivedemoservice.j",
+				"GitHub/BIS/nous-ui-component/app/src/deepDive/deepDiveDemoService.js"
+			],
+			[
+				"dev",
+				"GitHub/BIS/nous-frontend/app/config/dev_js.js"
+			],
+			[
+				"dev_j",
+				"GitHub/BIS/nous-frontend/app/config/dev_js.js"
+			],
+			[
+				"in.js",
+				"GitHub/DNA_Explorer/WebContent/nousfile/js/in.js"
+			],
+			[
+				"dev_js.js",
+				"GitHub/BIS/nous-frontend/app/config/dev_js.js"
+			],
+			[
+				"happy.activity_new.publish",
+				"happy/public/javascripts/happy.activity_new.publish.js"
+			],
+			[
+				"aci",
+				"happy/routes/activity.js"
+			],
+			[
+				"happy.index.js",
+				"happy/public/javascripts/happy.index.js"
+			],
+			[
+				"app.js",
+				"happy/app.js"
+			],
+			[
+				"happy.regist.js",
+				"happy/public/javascripts/happy.regist.js"
+			],
+			[
+				"happp",
+				"happy/public/javascripts/happy.favorite.publish.js"
+			],
+			[
+				"happylo",
+				"happy/public/javascripts/happy.login.js"
+			],
+			[
+				"happ",
+				"happy/public/javascripts/happy.regist.js"
+			],
+			[
+				"happyfa",
+				"happy/public/javascripts/happy.favorite.publish.js"
+			],
+			[
+				"a",
+				"happy/client/assets/css/app.css"
+			],
+			[
+				"appy.regist.js",
+				"happy/public/javascripts/happy.regist.js"
+			],
+			[
+				"vascripts/happy.login.js",
+				"happy/public/javascripts/happy.login.js"
+			],
+			[
+				"happfa",
+				"happy/public/javascripts/happy.favorite.publish.js"
+			],
+			[
+				"happy.favorite.publish.js",
+				"happy/public/javascripts/happy.favorite.publish.js"
+			],
+			[
+				"happy.i",
+				"happy/public/javascripts/happy.index.js"
+			],
+			[
+				"app.",
+				"happy/client/assets/css/app.css"
+			],
+			[
+				"app",
+				"happy/client/assets/css/app.css"
+			],
+			[
+				"hap",
+				"happy/public/javascripts/happy.activity.publish.js"
+			],
+			[
+				"upload",
+				"happy/views/upload_pic.jade"
+			],
+			[
+				"happyac",
+				"happy/public/javascripts/happy.activity.publish.js"
+			],
+			[
+				"tm.j",
+				"zhisiyun/schemas/tm.js"
+			],
+			[
+				"admin.nation_holiday.list.j",
+				"zhisiyun/public/pagejs/admin.nation_holiday.list.js"
+			],
+			[
+				"pmass",
+				"zhisiyun/routes/admin/pm_assessment_instance_wf.js"
+			],
+			[
+				"workfl",
+				"zhisiyun/schemas/workflow.js"
+			],
+			[
+				"taskinsta",
+				"zhisiyun/routes/admin/wf_task_instance.js"
+			],
+			[
+				"wfengi",
+				"zhisiyun/routes/admin/wf_engine_core.js"
+			],
+			[
+				"pmasss",
+				"zhisiyun/routes/admin/pm_assessment_instance_wf.js"
+			],
+			[
+				"pm.js",
+				"zhisiyun/schemas/pm.js"
+			],
+			[
+				"wxapp01104",
+				"zhisiyun/public/pagejs/wxapp.011_04.js"
+			],
+			[
+				"pagejs/admin.process_visual_define.report_draw.js",
+				"zhisiyun/public/pagejs/admin.process_visual_define.report_draw.js"
+			],
+			[
+				"user.js",
+				"zhisiyun/schemas/user.js"
+			],
+			[
+				"tmwf",
+				"others/tm_wf_attendance_result_change.js"
+			],
+			[
+				"tmwftask",
+				"zhisiyun/routes/admin/wf_task_instance.js"
+			],
+			[
+				"pmasssess",
+				"zhisiyun/routes/admin/pm_assessment_instance_wf.js"
+			],
+			[
+				"tmcar",
+				"zhisiyun/routes/admin/tm_cardrecord.js"
+			],
+			[
+				"adminreport",
+				"zhisiyun/public/pagejs/admin.develope_report.list.js"
+			],
+			[
+				"admindire",
+				"zhisiyun/public/pagejs/admin.develope_direct.form.js"
+			],
+			[
+				"admintmrepor",
+				"zhisiyun/public/pagejs/admin.tm_report.attend_report.js"
+			],
+			[
+				"admin.work_time.list.j",
+				"zhisiyun/public/pagejs/admin.work_time.list.js"
+			],
+			[
+				"tm.js",
+				"zhisiyun/schemas/tm.js"
+			],
+			[
+				"tmrep",
+				"zhisiyun/routes/admin/tm_report.js"
+			],
+			[
+				"admin.tm.time_calendar.list.js",
+				"zhisiyun/public/pagejs/admin.tm.time_calendar.list.js"
+			],
+			[
+				"nationho",
+				"zhisiyun/routes/admin/tm_nationholiday.js"
+			],
+			[
+				"admintimec",
+				"zhisiyun/public/pagejs/admin.tm.time_calendar.list.js"
+			],
+			[
+				"tmwork",
+				"zhisiyun/routes/admin/tm_workplan.js"
+			],
+			[
+				"admin.tm.hr_team_work_plan.bbform.j",
+				"zhisiyun/public/pagejs/admin.tm.hr_team_work_plan.bbform.js"
+			],
+			[
+				"people.js",
+				"zhisiyun/schemas/people.js"
+			],
+			[
+				"admin.tm.pep_card_position_batch.list.js",
+				"zhisiyun/public/pagejs/admin.tm.pep_card_position_batch.list.js"
+			],
+			[
+				"admin.py.social_insurance_account_area_client.form.j",
+				"zhisiyun/public/pagejs/admin.py.social_insurance_account_area_client.form.js"
+			],
+			[
+				"admin.tm.beyond_work_report_list_all.",
+				"zhisiyun/public/pagejs/admin.tm.beyond_work_report_list_all.js"
+			],
+			[
+				"admin.tm_report.attend_report.j",
+				"zhisiyun/public/pagejs/admin.tm_report.attend_report.js"
+			],
+			[
+				"org",
+				"zhisiyun/routes/admin/organization.js"
+			],
+			[
+				"position",
+				"zhisiyun/routes/admin/position.js"
+			],
+			[
+				"tmcardpo",
+				"zhisiyun/routes/admin/tm_cardposition.js"
+			],
+			[
+				"tmcard",
+				"zhisiyun/routes/admin/tm_cardrecord.js"
+			],
+			[
+				"admin.pm.force_run.",
+				"zhisiyun/public/pagejs/admin.pm.force_run.js"
+			],
+			[
+				"admin.force_distribution_group.rule.j",
+				"zhisiyun/public/pagejs/admin.force_distribution_group.rule.js"
+			],
+			[
+				"admin.people_rule_config.list.j",
+				"zhisiyun/public/pagejs/admin.people_rule_config.list.js"
+			],
+			[
+				"adminforcegrou",
+				"zhisiyun/public/pagejs/admin.force_distribution_group.rule.js"
+			],
+			[
+				"admintmbeyo",
+				"zhisiyun/public/pagejs/admin.tm.beyond_work_report_list_all.js"
+			],
+			[
+				"adminforce",
+				"zhisiyun/public/pagejs/admin.force_distribution_group.rule.js"
+			],
+			[
+				"admintmbeyon",
+				"zhisiyun/public/pagejs/admin.tm.beyond_work_report_list.js"
+			],
+			[
+				"ser",
+				"zhisiyun/server_config.json"
+			],
+			[
+				"wxapp.004_05.js",
+				"zhisiyun/public/pagejs/wxapp.004_05.js"
+			],
+			[
+				"wxapp.004_03.j",
+				"zhisiyun/public/pagejs/wxapp.004_03.js"
+			],
+			[
+				"wxapp.001_14.j",
+				"zhisiyun/public/pagejs/wxapp.001_14.js"
+			],
+			[
+				"xapp.001_12.js",
+				"zhisiyun/public/pagejs/wxapp.001_12.js"
+			],
+			[
+				"xapp.001_12.j",
+				"zhisiyun/public/pagejs/wxapp.001_12.js"
+			],
+			[
+				"wxapp.001_14.js",
+				"zhisiyun/public/pagejs/wxapp.001_14.js"
+			],
+			[
+				"app001",
+				"zhisiyun/routes/qywx/app_001.js"
+			],
+			[
+				"wxapp.001_10.j",
+				"zhisiyun/public/pagejs/wxapp.001_10.js"
+			],
+			[
+				"wxapp.005_22.j",
+				"zhisiyun/public/pagejs/wxapp.005_22.js"
+			],
+			[
+				"wxapp.001_04.j",
+				"zhisiyun/public/pagejs/wxapp.001_04.js"
+			],
+			[
+				"00522",
+				"zhisiyun/views/wxapp/005/005_22.jade"
+			],
+			[
+				"payrol",
+				"zhisiyun/routes/admin/py_payroll_test_compute.js"
+			],
+			[
+				"att",
+				"zhisiyun/clis/attendance.js"
+			],
+			[
+				"cardpos",
+				"zhisiyun/routes/admin/tm_cardposition.js"
+			],
+			[
+				"card",
+				"zhisiyun/routes/admin/tm_cardrecord.js"
+			],
+			[
+				"routes/admin/pa_be_reinstated.js",
+				"zhisiyun/routes/admin/pa_be_reinstated.js"
+			],
+			[
+				"routes/qywx/app_011.js",
+				"zhisiyun/routes/qywx/app_011.js"
+			],
+			[
+				"schemas/activity.js",
+				"zhisiyun/schemas/activity.js"
+			],
+			[
+				"payroll",
+				"zhisiyun/routes/admin/py_payroll_test_compute.js"
+			],
+			[
+				"attendance.js",
+				"zhisiyun/clis/attendance.js"
+			],
+			[
+				"cli",
+				"zhisiyun/cli_config.json"
+			],
+			[
+				"people",
+				"zhisiyun/routes/admin/people_contact.js"
+			],
+			[
+				"app008",
+				"zhisiyun/routes/qywx/app_008.js"
+			],
+			[
+				"payrolltes",
+				"zhisiyun/routes/admin/py_payroll_test_compute.js"
+			],
+			[
+				"routepeople",
+				"zhisiyun/routes/admin/people.js"
+			],
+			[
+				"tmabsen",
+				"zhisiyun/routes/admin/tm_wf_absence_of_three.js"
+			],
+			[
+				"tmwfab",
+				"zhisiyun/routes/admin/tm_wf_leave_of_absence.js"
+			],
+			[
+				"userinit",
+				"zhisiyun/public/pagejs/user.init.js"
+			],
+			[
+				"/wxapp.005_25.js",
+				"zhisiyun/public/pagejs/wxapp.005_25.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

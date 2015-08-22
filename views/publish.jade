@@ -1,0 +1,128 @@
+extends layout
+//- extends header
+block header
+  .head
+    .row
+      .col-xs-2
+        a.activity_logo#activity_logo2(href="#")
+          img.activity_logo_le#activity_logo_le2(src="/assets/images/activity_logo2.png")
+      .col-xs-8.activity_a_tag
+        span.activity_a_span 发布新乐活
+        button.btn.btn-small.activity_a_success.activity_a_save 保存
+        button.btn.btn-small.activity_a_cancel.activity_a_delete 
+          i.fa.fa-times(style="color:gray")
+      .col-xs-2
+        a.activity_people_img#activity_people_img(href="#")
+          img.activity_people_img_le#activity_people_img_le(src="/assets/images/activity_new_1.png")
+
+block content
+  #fullscreen-overlay.fullscreen-overlay(style="display:none")
+  div.publish_img#publish_img
+    div.button_p
+      p.add_photo  +
+      p  增加一张美图
+      .hiddenfile
+        form(id="frmUploadPic", method="post", action="/gridfs/put", enctype="multipart/form-data", data-ajax="false")
+          input#file4upload(type="file", data-clear-btn="false", name="qqfile", accept="image/*", capture)
+
+  div#editor
+  input(type="file",data-edit="insertImage")
+
+  //- h1.editor_head 输入你的标题
+  //- h3.editor_mood 写下你的文字
+  .activity_button
+    .row
+      .col-xs-12(style="margin-top:12px")
+        i.fa.fa-plus-circle.float_left.margin_top_2
+        h3.activity_h3.float_left.margin_left_2 我想增加一个
+    .button_group
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="A") 
+          i.fa.fa-camera
+            |图片
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="B") 
+          i.fa.fa-reddit
+            |好段子
+      .col-xs-4
+        button.btn.btn-small.activity_a_btn(type="button",data-type="C") 
+          i.fa.fa-whatsapp
+            |重要通知
+  .activity_content_A.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |图片
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="A") 
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-camera 
+              | 图片
+  .activity_content_B.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |好段子
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="B") 
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-reddit 
+              | 好段子
+        li
+          .story#story
+            p 好段子
+
+  .activity_content_C.hidden
+    .activity_content_head.row
+      .col-xs-4
+        p.font2(style="margin-top:5px")
+          i.fa.fa-caret-right
+          |重要通知
+      .col-xs-6
+        .line
+      .col-xs-2
+        button.btn.btn-small.activity_a_cancel.activity_content_button(type="button",data-type="C") 
+          i.fa.fa-times(style="color:gray")
+    .activity_content_container
+      ul.activity_content_ul
+        li
+          p.opacity_5
+            i.fa.fa-whatsapp 
+              | 重要通知
+        li
+          .notice#notice
+            p 重要通知
+
+
+
+
+block page_script
+  link(href='/assets/js/pen/pen.css', rel='stylesheet', type='text/css')
+  link(href='/assets/js/dante/dante_editor.css', rel='stylesheet', type='text/css')
+  script(type="text/javascript", src="/assets/js/pen/pen.js")
+  script(type="text/javascript", src="/assets/js/pen/markdown.js")
+  script(type="text/javascript", src="/assets/js/dante/dante_editor.js")
+  script(type="text/javascript", src="/assets/thirdjs/deps.js")
+  script(src='/assets/js/bb/lodash.min.js', type='text/javascript')
+  script(src='/assets/js/bb/backbone-min.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.sprintf.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.canvasResize.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.exif.js', type='text/javascript')
+  script(src='/assets/js/bb/handlebars-v2.0.0.js', type='text/javascript')
+  script(type="text/javascript", src="/assets/thirdjs/bootstrap-wysiwyg.js")
+
+  script(type="text/javascript", src="/javascripts/happy.activity.publish.js?v=20150325")

@@ -1,0 +1,82 @@
+extends layout
+//- extends header
+block header
+  .head
+    .row
+      .col-xs-2
+        a.activity_logo#activity_logo2(href="#")
+          img.activity_logo_le#activity_logo_le2(src="/assets/images/activity_logo2.png")
+      .col-xs-8.activity_a_tag
+        button.btn.btn-small.activity_a_success.activity_a_save.hidden 保存
+        button.btn.btn-small.gold_button.float_right 编辑
+      .col-xs-2
+        a.activity_people_img#activity_people_img(href="#")
+          img.activity_people_img_le#activity_people_img_le(src="/assets/images/activity_new_1.png")
+
+block content
+  #fullscreen-overlay.fullscreen-overlay(style="display:none")
+  img.activity_a_edit_img_beautiful_pic(src="/assets/images/activity_a.jpg")
+
+  .margin_10.content
+    h1.editor_head xian现在公布本次结果
+    h3.editor_mood 通知大家我们的投票结果，就这样决定吧，时间地点如下。
+  .content_detail_p.margin_10.background_240.width_95
+    p.float_left.font5
+      i.fa.fa-quote-left
+    p.margin_20.line-height-18.font5 好段子长什么样，就是这个样子啦，随随便便搞一下么，不要那么太认真的啦，对不对。做人么，就不要太认真对吧。
+      i.fa.fa-quote-right.float_right
+
+  .content_detail_img
+    img.margin_20.activity_a_edit_img_beautiful_pic(src="/assets/images/activity_a.jpg")
+  //- .row.background_223.padding_10
+  //-   .col-xs-6
+  //-     button.btn.btn-small.border_radius_20.float_right.like 
+  //-       i.fa.fa-heart-o
+  //-         |喜欢这条乐活
+  //-   .col-xs-6
+  //-     button.btn.btn-small.border_radius_20.float_right.color_gray 
+  //-       i.fa.fa-tags
+  //-     button.btn.btn-small.border_radius_20.float_right.color_gray 
+  //-       i.fa.fa-share
+
+  .row.background_245.padding_10
+    .col-xs-6
+      button.btn.btn-small.border_radius_20.float_right.like.background_white 
+        i.fa.fa-heart-o
+          |喜欢这条乐活
+    .col-xs-6
+      button.btn.btn-small.border_radius_20.float_right.color_gray.background_white 
+        i.fa.fa-tags
+      button.btn.btn-small.border_radius_20.float_right.color_gray.background_white 
+        i.fa.fa-share
+  .background_252
+    .row
+      fieldset.margin_top_30
+        legend
+          span 有 20 位乐粉评论
+      img.margin_15.width_40.float_left(src="/assets/images/comment.png")
+      img.comment_left.float_left.margin_top_30(src="/assets/images/comment_left.png")
+      .comment_right.background_white.border_radius_20 
+        p.margin_top_60_n.display_inline_block.clear_both 评论文字可以很多很多评论文字可以很多很多评论文字可以很多很多评论文字可以很多很多评论文字可以很多很多评论文字可以很多很多。
+    .row
+      img.comment_top.float_left(src="/assets/images/comment_left.png")
+      div#publish_comment.background_white.margin_top_45.height_min_120
+        //- p.editor_mood 
+  .background_252.height_min_120
+
+
+block page_script
+  link(href='/assets/js/pen/pen.css', rel='stylesheet', type='text/css')
+  link(href='/assets/js/dante/dante_editor.css', rel='stylesheet', type='text/css')
+  script(type="text/javascript", src="/assets/js/pen/pen.js")
+  script(type="text/javascript", src="/assets/js/pen/markdown.js")
+  script(type="text/javascript", src="/assets/js/dante/dante_editor.js")
+  script(type="text/javascript", src="/assets/thirdjs/deps.js")
+  script(src='/assets/js/bb/lodash.min.js', type='text/javascript')
+  script(src='/assets/js/bb/backbone-min.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.sprintf.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.canvasResize.js', type='text/javascript')
+  script(src='/assets/thirdjs/jquery.exif.js', type='text/javascript')
+  script(src='/assets/js/bb/handlebars-v2.0.0.js', type='text/javascript')
+
+  script(type="text/javascript", src="/javascripts/happy.activity.publish_a_edit.js?v=20150325")

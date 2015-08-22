@@ -1,0 +1,626 @@
+/*
+* 自定义的CSS样式表，已经在base.jade中引入了。
+*/
+
+.m-ud-0p2em {
+    margin: 0.2em 0 !important;
+    padding-right: 30px !important;
+}
+.button_self_define {
+    border: solid 0px blue;
+    border-radius: 5px;
+    color: blue;
+}
+.hiddenfile {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.fullscreen-overlay {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+}
+.fullscreen-overlay .img_view {
+    width: 100%;
+    height: 100%;
+    background-origin: content; /* 从content区域开始显示背景 */
+    background-position: 50% 50%; /* 图片上下左右居中 */
+    background-size: contain; /* 保持图像本身的宽高比例，将图片缩放到宽度或高度正好适应定义背景的区域 */
+    background-repeat: no-repeat; /* 图像不重复显示 */
+}
+.fullscreen-overlay img {
+    max-width: 100%;
+    max-height: 100%;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50%;
+    margin-top: -50%;
+    */
+}
+
+/*** Timeline UI Base ***/
+.timeline {
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* The line */
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: #C7DDE9;
+    left: 120px;
+    margin-left: -2px;
+}
+.timeline > li {
+    position: relative;
+}
+
+/* The date/time */
+.timeline > li .timeline-time {
+    display: block;
+    width: 80px;
+    padding-right: 100px;
+    position: absolute;
+}
+.timeline > li .timeline-time span {
+    display: block;
+    text-align: right;
+}
+.timeline > li .timeline-time span.date {
+    width: 80px;
+    text-align: left;
+    font-size: 12px;
+    color: #bdd0db;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.timeline > li .timeline-time span.time {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/* Right content */
+.timeline > li .timeline-body {
+    margin: 0 0 15px 170px;
+    color: #fff;
+    padding: 10px;
+    font-weight: 300;
+    position: relative;
+    border-radius: 5px;
+}
+.timeline > li .timeline-body h2 {
+    margin-top: 0px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 24px;
+}
+.timeline > li .timeline-content {
+    font-size: 14px;
+}
+.ie8 .timeline > li .timeline-body h2 {
+    border-bottom: 1px solid #eee;
+}
+.timeline > li .timeline-body img.timeline-img {
+    width: 75px;
+    height: 75px;
+    margin: 5px 10px 0 0px;
+}
+.timeline > li .timeline-body img.pull-right {
+    margin-left: 10px;
+}
+.timeline > li .timeline-body a.nav-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px;
+    text-align: left;
+    text-decoration: none;
+}
+.timeline > li .timeline-body a.nav-link:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.timeline > li .timeline-body .btn {
+    margin-top: 10px;
+}
+
+/* The triangle */
+.timeline > li .timeline-body:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #3594cb;
+    border-width: 10px;
+    top: 19px;
+}
+.timeline > li .timeline-content:after,
+.timeline > li .timeline-content:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.timeline > li .timeline-content:after {
+    clear: both;
+}
+.timeline >li .timeline-footer:after,
+.timeline >li .timeline-footer:before {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.timeline >li .timeline-footer:after {
+    clear: both;
+}
+
+/* The icons */
+.timeline > li .timeline-icon {
+    width: 40px;
+    height: 40px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.4em;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fff;
+    background: #53b8d3;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #C7DDE9;
+    text-align: center;
+    left: 100px;
+    top: 0;
+    margin: 2px 0 0 2px;
+    padding-bottom: 3px;
+    padding-right: 1px;
+    padding-left: 2px;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+}
+
+/* Red */
+.timeline li.timeline-red .timeline-body:after {
+    border-right-color: #e02222;
+}
+.timeline li.timeline-red .timeline-body {
+    background: #e02222;
+}
+.timeline li.timeline-red .timeline-time span.time {
+    color: #e02222;
+}
+
+/* Yellow */
+.timeline li.timeline-yellow .timeline-body:after {
+    border-right-color: #ffb848;
+}
+.timeline li.timeline-yellow .timeline-body {
+    background: #ffb848;
+}
+.timeline li.timeline-yellow .timeline-time span.time {
+    color: #ffb848;
+}
+
+/* Green */
+.timeline li.timeline-green .timeline-body:after {
+    border-right-color: #35aa47;
+}
+.timeline li.timeline-green .timeline-body {
+    background: #35aa47;
+}
+.timeline li.timeline-green .timeline-time span.time {
+    color: #35aa47;
+}
+
+/* Blue */
+.timeline li.timeline-blue .timeline-body:after {
+    border-right-color: #4b8df8;
+}
+.timeline li.timeline-blue .timeline-body {
+    background: #4b8df8;
+}
+.timeline li.timeline-blue .timeline-time span.time {
+    color: #4b8df8;
+}
+
+/* Purple */
+.timeline li.timeline-purple .timeline-body:after {
+    border-right-color: #852b99;
+}
+.timeline li.timeline-purple .timeline-body {
+    background: #852b99;
+}
+.timeline li.timeline-purple .timeline-time span.time {
+    color: #852b99;
+}
+
+/* Grey */
+.timeline li.timeline-grey .timeline-body:after {
+    border-right-color: #555555;
+}
+.timeline li.timeline-grey .timeline-body {
+    background: #555555;
+}
+.timeline li.timeline-grey .timeline-time span.time {
+    color: #555555;
+}
+
+/* BS Info */
+.timeline li.timeline-info .timeline-body:after {
+    border-right-color: #deeff8;
+}
+.timeline li.timeline-info .timeline-body {
+    background: #deeff8;
+    color: #4292b6;
+}
+.timeline li.timeline-info .timeline-time span.time {
+    color: #4292b6;
+}
+
+/*** Chats ***/
+.chats {
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+.chats li {
+    list-style: none;
+    padding: 5px 0;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.chats li img.avatar {
+    height: 45px;
+    width: 45px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+.chats li.in img.avatar {
+    float: left;
+    margin-right: 10px;
+}
+.chats li .name {
+    color: #3590c1;
+    font-size: 13px;
+    font-weight: 400;
+}
+.chats li.in .datetime {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    float: right;
+}
+.chats li.out .datetime {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    float: left;
+}
+.chats li.out img.avatar {
+    float: right;
+    margin-left: 10px;
+}
+.chats li .message {
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+.chats li.in .message {
+    text-align: left;
+    border-left: 2px solid #35aa47;
+    margin-left: 65px;
+    background: #fafafa
+}
+.chats li.in .message .arrow {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #35aa47;
+}
+.chats li.out .message .arrow {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: -8px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #da4a38;
+}
+.chats li.out .message {
+    border-right: 2px solid #da4a38;
+    margin-right: 65px;
+    background: #fafafa;
+    text-align: right;
+}
+.chats li.out .name,
+.chats li.out .datetime {
+    text-align: right;
+}
+.chats li .message .body {
+    display: block;
+}
+.chat-form {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9eff3;
+    overflow: hidden;
+    clear: both;
+}
+.chat-form .input-cont {
+    margin-right: 55px;
+}
+.chat-form .input-cont .m-wrap {
+    margin-bottom: 0px;
+}
+.chat-form .input-cont input {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 0;
+}
+.chat-form .input-cont input {
+    background-color: #fff !important;
+}
+.chat-form .input-cont input:focus {
+    border: 1px solid #4b8df9 !important;
+}
+.chat-form .btn-cont {
+    margin-top: -42px;
+    position: relative;
+    float: right;
+    width: 44px;
+}
+.chat-form .btn-cont .arrow {
+    position: absolute;
+    top: 17px;
+    right: 43px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #4d90fe;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.chat-form .btn-cont:hover .arrow {
+    border-right-color: #0362fd;
+}
+.chat-form .btn-cont:hover .btn {
+    background-color: #0362fd;
+}
+.chat-form .btn-cont .btn {
+    margin-top: 8px;
+}
+.remove_button {
+    border: 0px;
+    background: white;
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+.edit_button {
+    border: 0px;
+    background: white;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    cursor: pointer;
+}
+
+/* 通讯录 */
+.contact_search {
+    border-radius: 100px;
+    border: 1px solid blue;
+    height: 25px;
+    text-align: center;
+}
+.contact_i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: blue;
+    font-size: 11px;
+}
+.contact_cancel_button {
+    position: fixed;
+    border: 0px;
+    top: 5px;
+    right: 0px;
+    background-color: #fff;
+    color: blue;
+    display: none;
+}
+.contact_fl {
+    border-top: 1px;
+    border-bottom: 1px;
+    background-color: rgb(232, 240, 240);
+}
+.contact_td {
+    display: block;
+    margin-left: 10px;
+}
+.contact_i_right {
+    position: fixed;
+    right: 2px;
+    top: 110px;
+    color: blue;
+    font-size: 10px;
+}
+.contact_checkbox {
+    position: relative;
+    left: 250px;
+}
+.contact_enterprise_head {
+    color: #7554D5;
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.contact_p_ou1 {
+    font-size: 12px;
+}
+.contact_p_ou2 {
+    display: block;
+    margin-top: -10px;
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 0px;
+    /*margin-bottom: -10px !important;*/
+}
+.contact_p_ou3 {
+    margin-bottom: -20px;
+}
+.contact_hr {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.contact_i_right2 {
+    font-size: 10px !important;
+    color: gray !important;
+}
+.contact_i_right3 {
+    margin-right: 10px;
+}
+.contact_i_left {
+    color: white !important;
+    border: 3px solid #7554D5;
+    border-radius: 10px;
+    background-color: #7554D5;
+}
+.contact_i_left_ou {
+    color: white !important;
+    border: 3px solid #9C8DC7;
+    border-radius: 10px;
+    background-color: #9C8DC7;
+}
+.row_press {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.contact_li_head {
+    height: 120px;
+    background-color: rgb(72, 173, 146);
+}
+.contact_li_head1 {
+    height: 120px;
+    background-color: rgb(216, 158, 158);
+}
+.contact_avatar_head {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid gainsboro;
+}
+.contact_p_right {
+    margin-top: 5px;
+    margin-left: -45px;
+    color: white;
+}
+.contact_button {
+    width: 100%;
+    background: rgb(72, 173, 146);
+    color: white;
+}
+.contact_button1 {
+    width: 100%;
+    background: rgb(216, 158, 158);
+    color: white;
+}
+.contact_li_border {
+    border-right: 0px !important;
+    border-radius: 0px !important;
+    border-left: 0px !important;
+}
+.contact_font_size {
+    font-size: 12px;
+}
+
+.contact_refresh {
+    display: block;
+    float: right;
+    margin-top: -30px;
+}
+
+/* 考勤流程 */
+.color_blue {
+    color: rgb(77, 77, 250)
+}
+.color_gray {
+    color: gray;
+}
+.label_border {
+    border-radius: 0px;
+    border-left: 0px transparent;
+}
+.event_list .title {
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.event_list .description {
+    max-height: 60px;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* 城市选择 */
+.city_add {
+    border-radius: 50px;
+    /* border: 1px solid rgb(38, 38, 63);
+    */
+    font-size: 12px;
+    /* padding-left: 5px;
+    */
+    /* padding-top: 0px;
+    */
+    position: absolute;
+    right: 5px;
+}
+.btn-green {
+    background: green;
+    color: #fff;
+}
+.li_no_border {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.qt_button {
+    border-radius: 50px !important;
+    color: gray !important;
+    margin-left: 1px !important;
+}
